@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: lightyellow;
+  margin: 100px auto;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#home-score {
+  font-size: 60px;
+  margin-bottom: 40px;
+  color: saddlebrown;
+  border: 5px solid gray;
+  padding: 5px;
+}
+
+button {
+  border: 2px solid gold;
+  padding: 10px;
+}
+
+#guest-score {
+  font-size: 60px;
+  margin-bottom: 40px;
+  color: saddlebrown;
+  border: 5px solid gray;
+  padding: 5px;
+}
+
+h3 {
+  color: burlywood;
+  background-color: whitesmoke;
+}
+
+#reset {
+  background-color: crimson;
+  color: antiquewhite;
+}
